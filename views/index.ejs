@@ -6,12 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <script src="./js/navbar.js" defer async></script>
   </head>
   <body>
     <%- include('./components/navbar.ejs') %>
-    <h1>Title: <%= page %></h1>
-    <p>This is a placeholder for my website.</p>
+      <h1>BECOME A MEMBER</h1>
+        <div class="grid">
+          <div class="item"><img src="./assets/money.png" alt="">     Free forever</div>
+          <div class="item"><img src="./assets/time.png" alt="">     Casual commitment</div>
+          <div class="item"><img src="./assets/bag.png" alt="">     No experience necessary</div>
+          <div class="item"><img src="./assets/door.png" alt="">     Join/leave anytime</div>
+        </div>
     <%- include('./components/footer.ejs') %>
   </body>
 </html>

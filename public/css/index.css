@@ -1,0 +1,29 @@
+h1 {
+  font-family: "Overpass";
+  font-weight: bold;
+  color: white;
+  margin: 20px;
+  
+}
+
+body {
+  background: #000000;
+}
+
+div {
+  font-family: "Overpass";
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+
+.item {
+  margin-left: 100px;
+  width: 300px;
+  height: 100px;
+}
